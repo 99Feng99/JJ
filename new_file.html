@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<h1>登录</h1>
+	<hr>
+	<form action="/Web_Employee/doHuman?op=login" method="post">
+		<table>
+			<tr>
+				<td>用户名</td>
+				<td><input class="textInPut" type="text" name="humanName"></td>
+			</tr>
+			<tr>
+				<td>密码</td>
+				<td><input class="textInPut" type="text" name="humanPassword"></td>
+			</tr>
+			
+			<tr>
+				<td colspan="2" style="text-align: right;">
+				<input class="textInPut" type="submit" value="登录"></td>
+			</tr>
+		</table>
+	</form>
+		<h1>员工考勤系统登录</h1>
+	<hr>
+	<form action="" method="get">
+	<table>
+	<tr>
+	<td>用户名：</td>
+	<td><input class="textIn" type="text" name="userName"> </td>
+	</tr>
+	<tr>
+	<td>密 码：</td>
+	<td><input class="textIn" type="text" name="passWoord"> </td>
+	</tr>
+	<tr>
+	<td colspan="2">
+		<input class="texrIn" type="submit" value="注册" style="float: right;">
+		<input class="texrIn" type="submit" value="登录" style="float: right;">
+	</td>
+	
+	</tr>
+	</table>
+	
+	</form>
+	<form action="/WebAtow/doHuman?op=regist" method="post">
+		<table>
+			<tr>
+				<td>用户名</td>
+				<td><input class="textInPut" type="text" name="humanName"></td>
+			</tr>
+			<tr>
+				<td>密码</td>
+				<td><input class="textInPut" type="text" name="humanPassword"></td>
+			</tr>
+			<tr>
+				<td>电子邮件</td>
+				<td><input class="textInPut" type="text" name="humanEmail"></td>
+			</tr>
+			<tr>
+				<td>出生日期</td>
+				<td><input class="textInPut" type="date" name="humanBirthday"></td>
+			</tr>
+			<tr>
+				<td>性别</td>
+				<td><input class="" type="radio" name="humanGender" value="man">男
+					<input class="" type="radio" name="humanGender" value="woman">女</td>
+			</tr>
+			<tr>
+				<td colspan="2" style="text-align: right;">
+				<input class="textInPut" type="submit" value="注册"></td>
+			</tr>
+		</table>
+	</form>
+	</body>
+</html>
